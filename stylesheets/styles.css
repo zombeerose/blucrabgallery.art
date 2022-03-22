@@ -300,3 +300,39 @@ section #links p {
 .credits.right {
   float: right;
 }
+
+
+
+.parallax {
+     /* Set a specific height */
+     min-height: 500px;
+  /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.parallax.img1 {
+   background-image: url(/images/parallax1.jpg);
+}
+.parallax.img2 {
+   background-image: url(/images/parallax2.jpg);
+}
+.parallax.img3 {
+   background-image: url(/images/parallax3.jpg);
+}
+.parallax .caption {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    top: 250px;
+}
+.parallax .caption .border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
