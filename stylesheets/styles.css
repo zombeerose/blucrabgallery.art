@@ -5,23 +5,23 @@
 body {
   padding: 0px 0 20px 0px;
   margin: 0px;
-  font: 14px/1.5 'Juru', Arial, sans-serif;
+  font: 14px/1.5 'Monda', Arial, sans-serif;
   color: #f0e7d5;
   font-weight: normal;
   background: #004785;
-  background-attachment: fixed !important;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #004085), color-stop(100%, #004785));
-  background: -webkit-linear-gradient(#004085, #004785);
-  background: -moz-linear-gradient(#004085, #004785);
-  background: -o-linear-gradient(#004085, #004785);
-  background: -ms-linear-gradient(#004085, #004785);
-  background: linear-gradient(#004085, #004785);
+  /*background-attachment: fixed !important;*/
+  /*background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #004085), color-stop(100%, #004785));*/
+  /*background: -webkit-linear-gradient(#004085, #004785);*/
+  /*background: -moz-linear-gradient(#004085, #004785);*/
+  /*background: -o-linear-gradient(#004085, #004785);*/
+  /*background: -ms-linear-gradient(#004085, #004785);*/
+  /*background: linear-gradient(#004085, #004785);*/
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #e8e8e8;
   margin: 0 0 10px;
-  font-family: 'Juru', Arial, sans-serif;
+  font-family: 'Shadows Into Light', Arial, sans-serif;
   font-weight: normal;
 }
 
@@ -34,7 +34,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 42px;
 }
 
 h2 {
@@ -48,8 +48,8 @@ h4, h5, h6 {
 h3 {
   font-size: 26px;
   line-height: 24px;
-  font-family: 'Shadows Into Light', cursive, Arial, sans-serif !important;
-  font-weight: normal;
+  /*font-family: 'Shadows Into Light', cursive, Arial, sans-serif !important;*/
+  /*font-weight: normal;*/
   color: #b6b6b6;
 }
 
@@ -73,9 +73,9 @@ ul {
   list-style-image: url("../images/bullet.png");
 }
 
-strong {
-  font-family: 'Juru', Arial, sans-serif !important;
-}
+/*strong {*/
+/*  font-family: 'Juru', Arial, sans-serif;*/
+/*}*/
 
 .wrapper {
   background: transparent url("../images/stone_crab.png") no-repeat center center;
@@ -106,7 +106,7 @@ th {
   padding: 5px 10px;
   border-bottom: 1px solid #434343;
   color: #b6b6b6;
-  font-family: 'Juru', Arial, sans-serif !important;
+  /*font-family: 'Juru', Arial, sans-serif !important;*/
   font-weight: normal;
 }
 
@@ -126,7 +126,7 @@ hr {
 
 dt {
   color: #F0E7D5;
-  font-family: 'Juru', Arial, sans-serif !important;
+  /*font-family: 'Juru', Arial, sans-serif !important;*/
   font-weight: normal;
 }
 
@@ -152,7 +152,6 @@ dt {
   margin: 6px auto;
 }
 #header nav li {
-  font-family: 'Juru', Arial, sans-serif;
   font-weight: normal;
   list-style: none;
   display: inline;
@@ -217,11 +216,11 @@ dt {
 }
 
 section {
-  max-width: 650px;
-  padding: 30px 0px 50px 0px;
-  margin: 20px 0;
-  margin-top: 70px;
-  text-align: center;
+  /*max-width: 650px;*/
+  /*padding: 30px 0px 50px 0px;*/
+  /*margin: 20px 0;*/
+  /*margin-top: 70px;*/
+  /*text-align: center;*/
 }
 
 section #title {
@@ -247,7 +246,6 @@ section #title p {
 
 section #links p {
   color: #d7cfbe;
-  font-family: 'Juru', Arial, sans-serif;
   font-weight: normal;
   font-size: 14px;
   text-align: center;
@@ -279,7 +277,7 @@ section #links p {
   }
 
   section {
-    margin-top: 40px;
+    /*margin-top: 40px;*/
   }
 
   nav {
@@ -289,7 +287,6 @@ section #links p {
 
 .credits {
   font-size: 11px;
-  font-family: 'Juru', Arial, sans-serif;
   font-weight: normal;
   color: #696969;
   margin-top: -10px;
@@ -312,32 +309,59 @@ section #links p {
      background-repeat: no-repeat;
      background-size: cover;
 }
+.parallax.img0 {
+  background-image: url(/images/photo/parallax0.png);
+}
 .parallax.img1 {
-   background-image: url(/images/parallax1.jpg);
+   background-image: url(/images/photo/parallax1.jpg);
 }
 .parallax.img2 {
-   background-image: url(/images/parallax2.jpg);
+   background-image: url(/images/photo/parallax2.jpg);
 }
 .parallax.img3 {
-   background-image: url(/images/parallax3.jpg);
+   background-image: url(/images/photo/parallax3.jpg);
 }
-.parallax .caption {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    color: #000;
-    top: 250px;
+.parallax.img4 {
+  background-image: url(/images/photo/parallax4.jpg);
 }
-.parallax .caption .border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
+.parallax.img5 {
+  background-image: url(/images/photo/parallax5.jpg);
 }
+.caption {
+  /*position: absolute;*/
+  /*left: 0;*/
+  /*width: 100%;*/
+  /*text-align: center;*/
+  /*color: #000;*/
+  /*top: 215px;*/
+  text-align: center;
+  background-color: #282E34;
+  padding: 50px 80px;
+}
+.caption .border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+/*.parallax.caption {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*    color: #000;*/
+/*    top: 215px;*/
+/*}*/
+/*.parallax.caption .border {*/
+/*    background-color: #111;*/
+/*    color: #fff;*/
+/*    padding: 18px;*/
+/*    font-size: 25px;*/
+/*    letter-spacing: 10px;*/
+/*}*/
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 540px) {
   .parallax {
     background-attachment: scroll;
   }
