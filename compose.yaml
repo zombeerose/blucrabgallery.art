@@ -1,0 +1,22 @@
+volumes:
+  ssh:
+    external: true
+
+services:
+  web:
+    image: docker.io/library/httpd:latest
+    restart: "on-failure"
+    environment:
+      APPLICATION_ENV: $APPLICATION_ENV
+      DEVELOPER_ENV: $DEVELOPER_ENV
+    volumes:
+      - "./:/usr/local/apache2/htdocs"
+    ports:
+      - "7111:80"
+    networks:
+      - shared
+
+networks:
+  shared:
+    external: true
+    name: shared
