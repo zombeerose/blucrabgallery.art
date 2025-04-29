@@ -327,6 +327,9 @@ section #links p {
 .parallax.img5 {
   background-image: url(/images/photo/parallax5.jpg);
 }
+.parallax.img6 {
+  background-image: url(/images/photo/parallax6.jpg);
+}
 .caption {
   /*position: absolute;*/
   /*left: 0;*/
