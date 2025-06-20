@@ -309,27 +309,18 @@ section #links p {
      background-repeat: no-repeat;
      background-size: cover;
 }
-.parallax.img0 {
-  background-image: url(/images/photo/parallax0.png);
-}
-.parallax.img1 {
-   background-image: url(/images/photo/parallax1.jpg);
-}
-.parallax.img2 {
-   background-image: url(/images/photo/parallax2.jpg);
-}
-.parallax.img3 {
-   background-image: url(/images/photo/parallax3.jpg);
-}
-.parallax.img4 {
-  background-image: url(/images/photo/parallax4.jpg);
-}
-.parallax.img5 {
-  background-image: url(/images/photo/parallax5.jpg);
-}
-.parallax.img6 {
-  background-image: url(/images/photo/parallax6.jpg);
-}
+.parallax.img0 { background-image: url(/images/logo/parallax0.png); }
+.parallax.img1 { background-image: url(/images/acrylic/painting1.jpg); }
+.parallax.img2 { background-image: url(/images/acrylic/painting2.jpg); }
+.parallax.img3 { background-image: url(/images/acrylic/painting3.jpg); }
+.parallax.img4 { background-image: url(/images/acrylic/painting4.jpg); }
+.parallax.img5 { background-image: url(/images/acrylic/painting5.jpg); }
+.parallax.img6 { background-image: url(/images/ink/ink0.jpg); }
+.parallax.img7 { background-image: url(/images/wood/wood0.jpg); }
+.parallax.img8 { background-image: url(/images/wood/wood1.jpg); }
+.parallax.img9 { background-image: url(/images/wood/wood2.jpg); }
+.parallax.img10 { background-image: url(/images/wood/wood3.jpg); }
+.parallax.img11 { background-image: url(/images/writing/writing0.jpg); }
 .caption {
   /*position: absolute;*/
   /*left: 0;*/
